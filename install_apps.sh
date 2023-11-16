@@ -11,7 +11,7 @@ apt update
 apt upgrade -y
 
 # Install the desired packages
-apt install -y zsh git htop neofetch emacs fzf terminator cowsay w3m python3 python3-pip ssh vlc curl wget wine lutris playonlinux krusader mc kate i3
+apt install -y zsh git htop neofetch emacs fzf terminator cowsay w3m python3 python3-pip ssh vlc curl wget wine lutris playonlinux krusader mc kate
 
 # Set Zsh as the default shell for the current user
 chsh -s /usr/bin/zsh $USER
